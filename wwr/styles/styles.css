@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Walter+Turncoat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 30;
+    Background-color:#FFF7F1
+}
+
+li, a {
+   font-family: "Walter Turncoat", "Ubuntu", sans-serif;
+   font-weight: 500;
+   font-size: 24px;
+   color: #396E94;
+   text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left:0px;
+    width:100%;
+    height: 120px;
+    z-index:2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+
+}
+
+.nav_bar {
+    list-style: none;    
+}
+
+.nav_bar li {
+    display:inline-block;
+    padding: 0px 20px;
+}
+
+.nav_bar li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_bar li a:hover {
+    color:#FEF65C
+}
+
+.cta {
+    font-family: "Walter Turncoat", "Ubuntu", sans-serif;
+    size: 20px;
+    color:#FFF7F1;
+    padding: 9px 25px;
+    background-color: rgba(57,110,148,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cta:hover {
+    background-color: rgba(57,110,148,0.8);
+}
+.hero-slider {
+    width: 1920px;
+  }
+  .no-overflow {
+      overflow: hidden;
+  }
+  
+  .slick-slide { overflow: hidden }
+  
+  .hero-image {
+      height: 550px;
+      width: 100%;
+  }
+  
+  .hero-image img {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transition: transform 10s;
+      position: relative;
+      min-width: 1920px;
+      min-height: 100%;
+      
+  }
+  
+  .hero-image.slick-active img {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(1.5);
+      -webkit-transform: translate(-50%, -50%) scale(1.5);
+      -ms-transform: translate(-50%, -50%) scale(1.5);
+      min-width: 1920px;
+      min-height: 100%;
+  }
+  
+.card {
+    background: linear-gradient(150deg, #f731db, #4600f1 100%);
+    position: fixed;
+    box-sizing: border-box;
+    padding:500px;
+    top: 0px;
+    left:0px;
+    width:300px;
+    height: 120px;
+    z-index:2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    font-family: Ubuntu;
+    border-radius: 25px;
+    color: white;
+    line-height: 25px;
+    box-shadow: 5px 5px 10px #ccc;
+    float: left;
+    margin-right: 1em;
+  }
+  
+  button {
+    text-transform: uppercase;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    color: #4600f1;
+    border-radius: 50px;
+    padding: 1em;
+    background: white;
+    border: none;
+    font-weight: bold;
+    margin-top: 4em;
+  }
